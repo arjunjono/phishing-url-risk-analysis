@@ -1,0 +1,24 @@
+PHISHING URL DATA ETL FINDINGS
+=============================================
+Total URLs analyzed: 11430
+Phishing URLs: 5715 (50.0%)
+Legitimate URLs: 5715 (50.0%)
+
+Average URL length:
+  Phishing URLs:   74.9 characters
+  Legitimate URLs: 47.4 characters
+
+Red flag frequency (percent of URLs with each flag present):
+  ip: 26.6% of phishing URLs vs 3.6% of legitimate URLs
+  nb_at: 4.4% of phishing URLs vs 0.0% of legitimate URLs
+  https_token: 66.7% of phishing URLs vs 55.5% of legitimate URLs
+  prefix_suffix: 28.9% of phishing URLs vs 11.6% of legitimate URLs
+  shortening_service: 15.8% of phishing URLs vs 8.9% of legitimate URLs
+  suspicious_tld: 3.3% of phishing URLs vs 0.3% of legitimate URLs
+
+Most common red flag in phishing URLs: 'https_token' (66.7% of phishing URLs have it)
+
+Risk score check - percent of each category that was ACTUALLY phishing:
+  Low Risk: 23.6% were phishing
+  Medium Risk: 55.5% were phishing
+  High Risk: 89.2% were phishing
