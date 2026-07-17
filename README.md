@@ -40,3 +40,4 @@ python phishing_etl.py
 
 needs phishing_urls.csv in the same folder. running it regenerates
 findings_summary.txt, urls_with_risk_scores.csv, and the 4 png charts.
+running it regenerates findings_summary.txt, urls_with_risk_scores.csv, and the 4 png charts.
