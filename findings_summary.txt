@@ -1,5 +1,5 @@
 PHISHING URL DATA ETL FINDINGS
-=============================================
+
 Total URLs analyzed: 11430
 Phishing URLs: 5715 (50.0%)
 Legitimate URLs: 5715 (50.0%)
